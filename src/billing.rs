@@ -14,7 +14,7 @@ fn main() {
             Ok(words) => {
                 all_input.push(words);
                 times_input += 1;
-            },
+            }
             Err(e) => println!("error: {:?}", e),
         }
     }
